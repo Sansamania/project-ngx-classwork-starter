@@ -1,0 +1,16 @@
+<mat-drawer-container class="drawer-container">
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <button (click)="drawer.toggle()" mat-raised-button>
+        Toggle extra text
+      </button>
+      <ng-content select="mat-list"></ng-content>
+    </mat-drawer>
+  
+    <div class="sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Toggle sidenav
+      </button>
+      <ng-content></ng-content>
+    </div>
+  
+</mat-drawer-container>

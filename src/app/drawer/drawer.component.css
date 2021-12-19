@@ -1,0 +1,11 @@
+.drawer-container{
+    height: calc(100% - 64px);
+}
+
+mat-drawer{
+    width: 200px;
+}
+
+.sidenav-content{
+    padding: 20px;
+}
